@@ -1,0 +1,139 @@
+int main()
+{
+int a; #men 2,4
+float b; #men 4
+double c; #men 8
+char d; #men 1
+  
+  cin>>a;
+  cout<<a;
+  getch();
+}
+# R programming
+#no data type
+a=12
+class(a)
+
+b="Hello"
+class(b)
+
+c="this is demo class"
+class(c)
+typeof(c)
+
+no1=15L
+class(no1)
+typeof(no1)
+
+no2=18.63
+class(no2)
+typeof(no2)
+
+no3=85
+class(no3)
+typeof(no3)
+
+no4=15.25L
+class(no4)
+typeof(no4)
+
+
+#assignment operator
+#"=" , "<-" , "->"
+var1=85
+#85=var2  can't use = as right hand operator
+var2<-25
+100->var3
+
+#datatypes in R Programming 
+#vectors
+#list
+#array
+#matrices
+#data frames
+#factors
+
+#Basic Datatypes
+#logical data type
+c(10,50,205)-> var2
+
+v1=TRUE
+v1
+class(v1)
+
+#Numeric 
+v2=23.1 
+class(v2)
+
+#Integer
+v3=5L
+class(v3)
+
+#complex
+v4=5+2i
+class(complex)
+
+#character
+v5="12"
+class(v5)
+
+#Raw
+v6=charToRaw("Hello")
+v6
+class(v6)
+
+#to convert raw 
+v7=rawToChar(v6)
+v7
+class(v7)
+
+#vectors c()
+vec1<-c(10,20,52,86,36)
+vec1
+class(vec1)
+
+vec2<-c(10,12.53,"Hello")
+vec2
+class(vec2)
+
+vec3<-c(10+0i,12.53,58)
+vec3
+class(vec3)
+
+vec4<-c(10,10L,12.53,58)
+vec4
+class(vec4)
+
+vec5=c(1,2,3,4,5,6,7,8,9,10,12,13,14,15,16)
+vec6=1:50
+vec5
+vec6
+class(vec5)
+class(vec6)
+
+#but two function is not requried
+#it will lead to take more time to
+#execute (about below function)
+vec7=c(1:50) 
+vec7
+class(vec7)
+
+#coerced function
+vec8=0.5:10.5
+vec8
+class(vec8)
+
+#list
+numeric ->
+1.integer "L"
+2.decimal
+l1=list(10,12.53,"Hello")
+l1
+l1[3]
+
+l2=list(c(10,20,15),85.63,c("a","Hello","Hi"),charToRaw("savleen"))
+l2
+class(l2)
+typeof(l2[[3]])
+l2[[4]]
+ 
